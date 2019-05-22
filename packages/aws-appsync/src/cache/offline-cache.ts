@@ -103,11 +103,11 @@ export default class MyCache extends InMemoryCache {
     super.write(write);
 
     if (!this.storeCacheRootMutation && write.dataId === "ROOT_MUTATION") {
-      // @ts-ignore private accessor
+        // @ts-ignore private access
       this.data.delete("ROOT_MUTATION");
     }
 
-    // @ts-ignore private accessor
+    // @ts-ignore private access
     if (this.data && typeof (this.data as any).record === "undefined") {
       // do not persist contents of a RecordingCache
       const data = super.extract(true);
