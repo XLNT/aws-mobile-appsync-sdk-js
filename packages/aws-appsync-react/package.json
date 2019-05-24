@@ -1,6 +1,6 @@
 {
   "name": "@xlnt/aws-appsync-react",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "main": "lib/index.js",
   "license": "Apache-2.0",
   "description": "AWS Mobile AppSync SDK for JavaScript - React and React Native components",
@@ -12,6 +12,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/awslabs/aws-mobile-appsync-sdk-js.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "prepare": "tsc"
