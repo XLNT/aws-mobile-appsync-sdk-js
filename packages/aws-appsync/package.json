@@ -29,7 +29,7 @@
     "apollo-link-context": "1.0.17",
     "apollo-link-http": "1.5.14",
     "apollo-link-retry": "2.2.13",
-    "aws-sdk": "2.329.0",
+    "aws-sdk": "2.472.0",
     "debug": "2.6.9",
     "graphql": "^14.2.1",
     "redux": "^3.7.2",
